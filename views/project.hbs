@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+</head>
+<body>
+    {{>Main}}
+    <div class="project-banner" style="background-image:url({{project.bannerphoto}})">
+        <div class="project-banner-white">
+            <div class="project-title">
+                <div class="project-name">{{project.title}}</div>
+                <div class="project-category">{{project.category}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="project-block">
+        <div class="project-des">"{{project.description}}"</div>
+        <div class="project-web">
+            <i id="project-arrow" class="fas fa-long-arrow-alt-right">  </i>
+            <a class="project-web-name" href="{{project.url}}" target="_blank">{{project.sitename}}</a>
+
+
+        </div>
+        <div class="project-deliv-title">deliverables.</div>
+        {{#each project.deliverables}}
+        <li class="project-tools">{{this}}</li>
+        {{/each}}
+        {{#each project.tools}}
+        <li class="project-tools">{{this}}</li>
+        {{/each}}
+    </div>
+    {{>(partialHelper project.id)}}
+
+    {{>footer}}
+</body>
+</html>

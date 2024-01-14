@@ -1,0 +1,50 @@
+{"1":
+{
+    "id":"1",
+    "title":"portfolio",
+    "description":"This is the description",
+    "coverphoto":"/photos/covers/itachi2.jpg",
+    "deliverables":["dilmohan","kumar"],
+    "bannerphoto":"/photos/covers/itachi.jpg",
+    "tools":["java","html","js"],
+    "sitename":"Dilmohan portfolio",
+    "url":"https://www.example.com",
+    "partial":"post",
+    "category":"jervis assistant"
+
+
+
+},
+
+"2":
+{
+    "id":"2",
+    "title":"portfolio2",
+    "description":"this is the description",
+    "coverphoto":"/photos/covers/itachi.jpg",
+    "deliverables":["djfnkjsd","djfnkjsd"],
+    "bannerphoto":"/photos/covers/itachi.jpg",
+    "sitename":"Dilmohan portfolio",
+    "url":"https://www.example.com",
+    "partial":"captionb",
+    "category":"portfolios",
+    "tools":["java,html,js"]
+},
+
+"3":
+{
+    "id":"3",
+    "title":"portfolo3",
+    "description":"this is a  description",
+    "coverphoto":"/photos/covers/OIG.jpg",
+    "deliverables":"djfnkjsd",
+    "bannerphoto":"/photos/covers/itachi.jpg",
+    "sitename":"Dilmohan portfolio",
+    "url":"https://www.example.com",
+    "partial":"snap",
+    "category":"portfolios",
+    "tools":["java,html,js"]
+
+}
+
+}
